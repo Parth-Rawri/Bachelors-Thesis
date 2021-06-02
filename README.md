@@ -1,9 +1,9 @@
 # Bachelors-Thesis
 
-PROJECT TITLE: <br>
+**PROJECT TITLE:** <br>
 **Machine Learning based Energy Source Management System for Series-Parallel Full HEV using Karanja Biodiesel (Millettia Pinnata)** <br>
 
-DESCRIPTION: <br>
+**DESCRIPTION:** <br>
 
 To fight climate change, the Government of India took a major step towards Electric Revolution. By April of 2020, there’ll be a nationwide adoption of Bharat Stage VI (BS-VI). India’s Transportation System is anticipated to shift to complete electric by 2030. However, there are obstacles which need to be addressed and countered to make such a shift workable. <br>
 
@@ -16,7 +16,7 @@ Biodiesel has not been a popular substitute in the past owing to its poor oxidat
 
 The present work focuses on developing a technique of using this short-lived biodiesel fuel using a machine learning algorithm by eliminating its problem of oxidative degradation.
 
-_Drawbacks in the existing solution:_ <br>
+_**Drawbacks in the existing solution:**_ <br>
 An extensive Prior Art reveals that no such Machine Learning Algorithm was employed to tackle the problem of Oxidation Stability of Biodiesel when used as a fuel in a HEV, rather modifications were made to deal with the problem instead of avoiding it completely.
 
 The Oxidation Stability (OS), which is indicated by Induction Period (IP), is one of the major issues for implementing the use of biodiesel as an alternate fuel to petro-diesels. It affects the stability of biodiesel during extended storage. The stability of biodiesel is lower than the common diesel fuel. Oxidative degradation of biodiesel can yield products that compromise fuel properties, impair fuel quality and cause operational problems. Induction Period (IP) value (given in hours) marks the point where the biodiesel begins to undergo a rapid increase in the biodegradation, causing a significant change in the fuel properties, thus making it unfit to put into use. With HEVs however, this problem could be addressed by incorporating the use of biodiesels which is a renewable source of energy as a substitute to diesel fuel. Full Hybrid Electric Vehicles, fueled with biodiesels can be used to instantly convert the chemical energy to electrical energy. Sensors which indirectly monitor the IP and thus the Oxidation Stability of biodiesel could be used to accelerate the usage of biodiesel for propulsion as well as battery charging before the biodiesel becomes unfit for use. <br>
@@ -27,7 +27,7 @@ Also, based on the driver’s daily usage of the vehicle a prediction can be mad
 
 ![image](https://user-images.githubusercontent.com/82664344/120456877-a0d7ed80-c3b3-11eb-9760-6d85dea807e3.png)
 
-The Machine Learning Algorithm is used to classify biodiesel into one of the cases mentioned below:
+The Machine Learning Algorithm is used to classify biodiesel into one of the cases mentioned below: <br>
 **Case 1:** Biodiesel has enough time before which the fuel deteriorates and becomes unfit for usage (Biodiesel Life ↓). In this case the EV operates as usual.<br>
 **Case 2:** Biodiesel is about to become unfit for usage (Biodiesel Life ↑).<br>
 In this case the usage of Biodiesel is accelerated by giving it more priority in various modes of operation compared to the battery by reducing or cutting off power inputs from the battery and thus the electric motor for propulsion, and by initiation of battery charging. This is done to ensure maximum utilization of biodiesel during the regular operation of the vehicle. <br>
